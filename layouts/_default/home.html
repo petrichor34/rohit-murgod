@@ -33,7 +33,7 @@ nav li { display: inline; }
   <!-- Right content - recent posts -->
   <div style="flex:1;">
     <h2 style="margin-top:0;">Recent</h2>
-    {{ range first 5 .Site.RegularPages }}
+    {{ range first 5 (where .Site.RegularPages "Section" "ne" "") }}
     <div style="background:#d6bcaa; border-radius:8px; margin-bottom:1.5rem; overflow:hidden;">
       <a href="{{ .Permalink }}" style="text-decoration:none; color:inherit; display:block;">
         {{ with .Resources.GetMatch "feature.*" }}
