@@ -1,29 +1,35 @@
 nav {
-  background-color: #95978a !important;
-  padding: 1.2rem 2rem !important;
+  background-color: #95978a;
+  padding: 0.7rem 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin: 0.75rem;
 }
 
 nav a, nav span {
-  color: #ffffff !important;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-/* Make home symbol bigger */
 nav > div a {
-  font-size: 2rem !important;
-  line-height: 1 !important;
+  font-size: 2rem;
+  line-height: 1;
 }
 
 section article {
-  background-color: #d6bcaa !important;
-  border-radius: 8px !important;
-  padding: 1.2rem 1.5rem !important;
-  margin-bottom: 1rem !important;
+  background-color: #d6bcaa;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1rem;
 }
 
 section article:hover {
-  background-color: #95978a !important;
+  background-color: #95978a;
 }
 
 section article:hover a {
-  color: #ffffff !important;
+  color: #ffffff;
 }
