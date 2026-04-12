@@ -1,0 +1,26 @@
+colorScheme = "ocean"
+defaultAppearance = "light"
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  recentLimit = 5
+
+[header]
+  layout = "basic"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+
+[article]
+  showDate = true
+  showAuthor = false
+  showReadingTime = true
+
+[list]
+  showCards = true
+  showTableOfContents = false
+
+[assets]
+  customCSS = ["css/custom.css"]

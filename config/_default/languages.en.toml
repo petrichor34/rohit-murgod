@@ -1,0 +1,16 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "⌂"
+
+[params]
+  dateFormat = "2 January 2006"
+  mainSections = ["care", "practice"]
+
+[params.author]
+  name = "Rohit Murgod"
+  image = "img/author.jpg"
+  headline = "Critical Physiotherapist"
+  bio = "Helping people move better and live well."

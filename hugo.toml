@@ -1,0 +1,3 @@
+baseURL = "https://your_domain.com/"
+languageCode = "en"
+theme = "congo"

@@ -1,0 +1,29 @@
+nav {
+  background-color: #95978a !important;
+  padding: 1.2rem 2rem !important;
+}
+
+nav a, nav span {
+  color: #ffffff !important;
+}
+
+/* Make home symbol bigger */
+nav > div a {
+  font-size: 2rem !important;
+  line-height: 1 !important;
+}
+
+section article {
+  background-color: #d6bcaa !important;
+  border-radius: 8px !important;
+  padding: 1.2rem 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+section article:hover {
+  background-color: #95978a !important;
+}
+
+section article:hover a {
+  color: #ffffff !important;
+}

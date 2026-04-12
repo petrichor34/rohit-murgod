@@ -1,0 +1,14 @@
+[[main]]
+  name = "♡ Care"
+  pageRef = "care"
+  weight = 10
+
+[[main]]
+  name = "✚ Practice"
+  pageRef = "practice"
+  weight = 20
+
+[[main]]
+  name = "✦ About"
+  pageRef = "about"
+  weight = 30
