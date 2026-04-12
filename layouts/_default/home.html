@@ -1,11 +1,12 @@
 {{ define "main" }}
 <style>
-nav { background-color: #95978a; padding: 1.2rem 2rem; display: flex; flex-direction: row; align-items: center; justify-content: space-between; }
-nav a, nav span { color: #ffffff; }
+nav { background-color: #95978a; padding: 1.2rem 2rem; display: flex; flex-direction: row; align-items: center; justify-content: space-between; min-height: 4rem; }
+nav a, nav span { color: #ffffff; vertical-align: middle; }
+nav > div:first-child { display: flex; align-items: center; }
 nav > div:first-child a { font-size: 2rem; line-height: 1; }
 nav > div:last-child { display: flex !important; flex-direction: row; align-items: center; gap: 1.5rem; }
-nav ul { display: flex !important; flex-direction: row; list-style: none; gap: 1.5rem; margin: 0; padding: 0; }
-nav li { display: inline; }
+nav ul { display: flex !important; flex-direction: row; list-style: none; gap: 1.5rem; margin: 0; padding: 0; align-items: center; }
+nav li { display: flex; align-items: center; }
 footer a { color: #666; text-decoration: none; }
 a[href="#main-content"] { display: none; }
 </style>
